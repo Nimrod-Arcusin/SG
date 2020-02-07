@@ -1,0 +1,34 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+
+
+#frontImage .eyeBackground{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.sections{
+    margin: 3rem 10%;
+}
+
+.sections h1{
+	color: #33FF33;
+}
+
+.card{
+	background-color: black;
+}
+
+#copyright{
+    text-align: center;
+    color: gray
+}
+
+hr{
+	display: none;
+}
