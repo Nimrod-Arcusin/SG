@@ -14,8 +14,14 @@ body{
     margin: 3rem 10%;
 }
 
-.sections h1{
-	color: #33FF33;
+a h1{
+    font-size: 2.5rem;
+	color: #00FF00;
+    text-shadow: 3px 4px #005500;
+}
+
+a h1:hover{
+    font-size: 2.6em;
 }
 
 #Intro p{
@@ -45,7 +51,17 @@ body{
     }}
 
 .card{
-	background-color: black;
+	background-color: #111111;
+    
+}
+
+.btn-green{
+    background-color: #11aa11;
+    color: black;
+}
+
+.btn-green:hover{
+    font-weight: 700;
 }
 
 #copyright{
