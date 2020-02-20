@@ -33,13 +33,20 @@ body {
     text-align: center;
 }
 
-
-.founder-info p {
-    font-size: 1rem;
-    margin: 0.5rem;
-    text-align: left;
-
+.card, .card:hover {
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
 }
+
+.card img {
+    transition: transform 0.3s;    /* Animation */
+}
+
+.card img:hover, .card img:active {
+    transform: scale(1.12);
+}
+
 
 #copyright {
     text-align: center;

@@ -51,8 +51,16 @@
     
 }
 
+.little-logo{
+    width: 70px;
+    margin: 10px 15px;
+    position: absolute;
+    transition: transform 0.3s;
+}
 
-
+.little-logo:hover{
+    transform: scale(1.4);
+}
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
