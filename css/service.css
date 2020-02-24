@@ -64,6 +64,11 @@ body {
 .service-description{
     margin: 1.5rem 10% 5rem;
 }
+
+.service-description ol{
+    list-style-type: lower-alpha;
+}
+
 .sections p {
     font-size: 1.3rem;
 }
