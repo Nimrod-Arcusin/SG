@@ -24,6 +24,11 @@ body {
         height: 60vmin;
     }
 
+.cut-top {
+        object-fit: cover;
+        object-position: bottom;
+        height: 60vmin;
+    }
 
 .dark-section {
     background: black;
@@ -93,7 +98,7 @@ body {
 .sections p {
     font-size: 1.4rem;
 }
-.sections li {
+.sections li, .sections ul {
     font-size: 1.3rem;
 }
 
